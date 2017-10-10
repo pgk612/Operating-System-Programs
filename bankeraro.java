@@ -1,4 +1,4 @@
-package trial;
+//Bankers algorithm of operating system implemented in java
 
 import java.util.*;
 import java.io.*;
