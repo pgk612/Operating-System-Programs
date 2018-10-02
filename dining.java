@@ -2,7 +2,7 @@ package trial;
 
 import java.util.*;
 
-
+import java.util.Scanner;
 import java.io.*;
 
 public class dining
