@@ -14,15 +14,15 @@ public class diskaro
 Scanner sc=new Scanner(System.in);
 
 
-int n;
+int n,s,e,i;
 
 System.out.println("Enter the range");
 n=sc.nextInt();
 int a[]=new int[n];
 int b[]=new int[n];
-int i;
 
-int s,e;
+
+
 System.out.println("Enter the start and ending limit");
 //Enter 0 and 199 for test purposes
 s=sc.nextInt();
@@ -245,10 +245,6 @@ if(algo==2)
 	
 }
 
-
-
-
-
 else
 if(algo==3)
 {
@@ -293,22 +289,7 @@ if(algo==3)
 	        
 	        descend_sort(p1);
 	        ascend_sort(p2);
-	        	/*System.out.println("The sorted array is ");
-	        for(i=0;i<p1.length;i++)
-	        {
-	        	System.out.print(" "+p1[i]);
-	        	
-	        }
 	        
-	            	//System.out.println("The ascended sorted array is ");
-	        for(i=0;i<p2.length;i++)
-	        {
-	        	System.out.print(" "+p2[i]);
-	        	
-	        }
-	        
-	        
-	        */
 	        
 	           for(i=0;i<ct1;i++)
 	        {
@@ -430,10 +411,6 @@ if(algo==3)
 	}
 	
 }
-
-
-
-
 
 
 	}
