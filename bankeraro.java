@@ -76,16 +76,18 @@ public class bankeraro
 	 
 	 //initializing of array
 	 int arr[]=new int[nop];
+	System.out.println("Initializing array");	
 	 arr[0]=99;
 	 for(i=0;i<arr.length;i++)
 	 {
 		 arr[i]=99;
 	 }
 	 
-	 
+	 int time=0;
 	 for(int cu=0;cu<nop;cu++)
 	 
 	 {i=0;
+	  time++;
 	  for(i=0;i<nop;i++)
 	 {
 	 	
@@ -101,7 +103,7 @@ public class bankeraro
 	 }
 	 	
 	 	
-	 	
+	 	System.out.println("Time taken  "+time);
 	 	
 	 	// System.out.println("\n ct value is "+ct1);
 	 	if(ct1>0)
